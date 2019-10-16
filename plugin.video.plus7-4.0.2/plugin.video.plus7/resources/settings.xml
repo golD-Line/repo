@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+  <!-- Settings -->
+  <category label="10080">
+    <setting id="hd_enabled" type="bool" label="10094" default="true" />
+    <setting id="dash_enabled" type="bool" label="10092" default="true" />
+  </category>
+  <!-- Debugging -->
+  <category label="10090">
+    <setting label="10097" type="action" action="RunPlugin(plugin://plugin.video.plus7/?action=sendreport)"/>
+    <setting label="10098" type="action" action="RunPlugin(plugin://plugin.video.plus7/?action=update_ia)"/>
+    <setting label="10095" type="action" action="RunPlugin(plugin://plugin.video.plus7/?action=reinstall_ssd_wv)"/>
+    <setting label="10096" type="action" action="RunPlugin(plugin://plugin.video.plus7/?action=reinstall_widevine_cdm)"/>
+  </category>
+</settings>
